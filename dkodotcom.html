@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/jquery-ui.min.css">
+		<style>
+			.postit {
+				width: 150px;
+				height: 150px;
+				padding: 0.5em;
+			}
+
+			#contact-email {
+				background-color: #A0F2FC;
+			}
+
+			#contact-phone {
+				background-color: #F2B9BA;
+			}
+
+			#contact-linkedin {
+				background-color: #FDF48A;
+			}
+
+			#contact-github {
+				background-color: #A7BCFC;
+			}
+
+			/* #A2F890 for green sticky */
+
+		</style>
+		<title>dkodotcom</title>
+	</head>
+	<body>
+		<div id="tabs">
+			<div class="fluid-container">
+				<ul>
+					<li><a href="#home">dkodotcom</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#about">About Me</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+			<div id="home">
+				Content!
+			</div>
+			<div id="portfolio">
+				More content!
+			</div>
+			<div id="about">
+				Content!
+			</div>
+			<div id="contact">
+				<div id="contact-email" class="ui-widget-content postit">
+					<h2>Email:</h2>
+					<p><a href="mailto:kodiana@outlook.com">kodiana@outlook.com</a></p>
+				</div>
+				<div id="contact-phone" class="ui-widget-content postit">
+					<h2>Phone:</h2>
+					<p><a href="tel:+19179525311">(917) 952-5311</a></p>
+				</div>
+				<div id="contact-linkedin" class="ui-widget-content postit">
+					<h2>LinkedIn:</h2>
+					<p><a href="https://www.linkedin.com/in/dkodotcom">LinkedIn.com/in/dkodotcom</a></p>
+				</div>
+				<div id="contact-github" class="ui-widget-content postit">
+					<h2>GitHub:</h2>
+					<p><a href="https://www.github.com/dkodotcom">GitHub.com/dkodotcom</a></p>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script type="text/javascript">
+			$("document").ready(function() {
+				$("#tabs").tabs();
+				$(".postit").draggable();
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,60 @@
+body {
+	background-color: #cbcbcb;
+	margin: 5px;
+	font-family: georgia, verdana, sans-serif;
+	font-size: 100%;
+}
+
+#content {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+	background-color: #cbcbcb;
+	border: 2px solid: 000;
+}
+
+.text {
+	text-align: center;
+}
+
+#PORTFOLIO1 {
+	max-width: 50%;
+	max-height: 50%;
+	float: left;
+	margin-top: 5px;
+	margin-right: 5px;
+	border: 2px solid: #181818;
+}
+
+h1 {
+	color: #d4aa42;
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+}
+
+
+
+
+/* this is rose pink */
+#ffd2d1
+#ffded1
+#ffdad1
+#ffdad1
+
+/* this is mustard yellow */
+#d4aa42
+#d8b152
+#dbb862
+
+/* this is royal blue if the background is very light gray */
+#0e0c56
+#11106c
+
+/* this is teal blue, aqua */
+#88eabb
+#72e6af
+
+
+
+
