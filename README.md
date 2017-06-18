@@ -6,4 +6,4 @@ This landing page was my very first project as a developer. My hopes were to lea
 
 ## History
 
-Originally, my first commit was pure HTML and CSS, which would be landingpage.html and landingpage.css. After deciding I wanted to use flexbox as the responsive framework, I committed landingpage2.html and landingpage2.css which on retro, was a bit redundant.. I was figuring out (the hard way) bash/git/github and directory paths, etc... which I am still getting to know, painstakingly. 
+Originally, my first commit was pure HTML and CSS, which would be landingpage.html and landingpage.css. After deciding I wanted to use flexbox as the responsive framework, I committed landingpage2.html and landingpage2.css which on retro, was a bit redundant.. I was figuring out (the hard way) bash/git/github and directory paths, etc... which I am still getting to know, painstakingly. index.css was the most recent commit, making my site mobile friendly. On queue, 'about me' content... ugh! 
